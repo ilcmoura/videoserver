@@ -1,0 +1,23 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<title>Título da Página</title>
+
+<script type="text/javascript">
+
+function popUpWindow(URLStr, left, top, width, height) {
+
+popUpWin = open(URLStr, 'popUpWin', 'toolbar=no,fullscreen=yes,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,history=yes,width='+width+',height='+height+',left='+left+', top='+top+',screenX='+left+',screenY='+top);
+
+}
+
+</script>
+
+</head>
+
+<body onload="popUpWindow('index.html',0,0,screen.width,screen.height)">
+</body>
+
+</html>
